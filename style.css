@@ -1,0 +1,149 @@
+body{
+    margin-top: 2px;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: arial;
+    height: 1000px;
+    padding-top: 68px;
+}
+.parent-header-div{
+    background-color: rgb(2, 104, 117);
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.header-option-div{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding-right: 40px;
+}
+.business-name{
+    padding-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.header-options{
+    color: white;
+    cursor: pointer;
+}
+.website-img{
+    display: flex;
+    flex: 1;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.the-website-img{
+    height: 400px;
+    width: 1500px;
+    display: flex;
+    flex: 1;
+}
+.hero-content{
+    position: absolute;
+    display: flex;
+    width: 370px;
+    height: 200px;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+.welcome{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.middle-section{
+    color: white;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.button{
+    margin-bottom: 0;
+}
+.get-in-touch-button{
+    background-color: rgb(219, 92, 46);
+    color: white;
+    padding: 8px 15px;
+    bottom: 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.get-in-touch-button:hover{
+background-color: rgb(239, 114, 11);
+}
+.get-in-touch-button:active{
+    background-color: rgb(243, 133, 43);
+    }
+.first-para-div{
+    line-height: 18px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.our-service{
+    color: rgb(30, 107, 224);
+    font-weight: bold;
+    font-size: 25px;
+}
+.options-class{
+    padding-left: 40px;
+}
+.second-para-div{
+    background-color: rgb(232, 232, 232);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+.about-us{
+    color: rgb(7, 148, 7);
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 5px;
+}
+.para{
+    width: 1000px;
+    color: black;
+}
+.contact-us{
+    color: rgb(250, 34, 34);
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 5px;
+}
+.third-para-div{
+    padding-top: 1px;
+    padding-left: 15px;
+}
+.parent-footer-div{
+    background-color: rgb(4, 97, 109);
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.footer{
+    color: white;
+}
